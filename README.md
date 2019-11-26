@@ -10,5 +10,5 @@
 #Name it Clean.bat (any name with .bat extension) click yes on the prompt.
 #Then right click and select edit.(It will open up notepad)
 #Copy the code and paste it.
-#in the fourth line replace **Your_user_foldername** with the name of your user Folder.
+#in the first line replace **Your_user_foldername** with the name of your user Folder.
 #save it and exit.
