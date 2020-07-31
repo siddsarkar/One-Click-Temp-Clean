@@ -34,6 +34,6 @@ set folder="C:\Windows\prefetch"
 cd /d %folder%
 for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 ```
-
-5. Save it and exit.
-6. Whenever you feel like deleting your temp files just double click **_filename.bat_** it will automatically delete the files that can be deleted.
+*
+  5. Save it and exit.
+  6. Whenever you feel like deleting your temp files just double click **_filename.bat_** it will automatically delete the files that can be deleted.
