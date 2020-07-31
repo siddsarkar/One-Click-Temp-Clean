@@ -10,7 +10,7 @@
  C:\Users\your_user_Folder\AppData\Local\Temp
 ```
 
-> How to use? (Use any of the Option)
+### How to use? (Use any of the Option)
 
 - **Option 1** (Don't want to do steps) here's your option-
 
