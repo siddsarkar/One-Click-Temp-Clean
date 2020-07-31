@@ -22,6 +22,8 @@
   2. Name **_filename.txt_** to **_filename.bat_** or any name with .bat extension, click yes on the prompt. (make sure extensions are shown)
   3. Then right click and select edit. (It will open up notepad)
   4. Copy the code below and paste it there-
+  5. Save it and exit.
+  6. Whenever you feel like deleting your temp files just double click **_filename.bat_** it will automatically delete the files that can be deleted.
 
 ```bat
 set folder="%temp%"
@@ -34,6 +36,3 @@ set folder="C:\Windows\prefetch"
 cd /d %folder%
 for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 ```
-
-5. Save it and exit.
-6. Whenever you feel like deleting your temp files just double click **_filename.bat_** it will automatically delete the files that can be deleted.
